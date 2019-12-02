@@ -1,0 +1,15 @@
+.jumbotron {
+  background-color: #6B7D3F;
+}
+
+img {
+  border: 2px #734B21 solid;
+}
+.navbar {
+  background-color: #6B7D3F;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+}
