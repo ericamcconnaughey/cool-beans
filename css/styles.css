@@ -3,15 +3,11 @@ body {
 }
 
 .jumbotron {
-  background-color: #6B7D3F;
-}
-
-img {
-  border: 2px #734B21 solid;
+  background-color: #424269;
 }
 
 .navbar {
-  background-color: #6B7D3F;
+  background-color: #424269;
   color: white;
 }
 
@@ -25,10 +21,50 @@ img {
   background-color: rgba(0,0,0,0.5);
 }
 
-h2, h3 {
+h2, h3, h4, h5 {
   text-align: center;
 }
 
-div {
-  border: 2px #734B21 solid;
+.picture1 img {
+  width: 100%;
+}
+
+.picture2 img {
+  width: 100%;
+}
+
+.box {
+  padding: 10px;
+}
+
+.box a {
+  color: #424269;
+}
+
+.overview, .info {
+  background-color: #6B7D3F;
+  color: #FFF;
+}
+
+.catering {
+  background-color: #E6BB4B;
+}
+
+.menu {
+  background-color: #BFB25E;
+}
+
+.menu a {
+  color: #FFF;
+}
+
+.eco-friendly {
+  background-color: #38685A;
+  color: white;
+}
+
+.footer {
+  background-color: #424269;
+  width: 100%;
+  color: white;
 }
