@@ -9,6 +9,7 @@ body {
 img {
   border: 2px #734B21 solid;
 }
+
 .navbar {
   background-color: #6B7D3F;
   color: white;
@@ -16,6 +17,8 @@ img {
 
 .navbar a {
   color: white;
+  margin-right: 10px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .carousel-caption {
