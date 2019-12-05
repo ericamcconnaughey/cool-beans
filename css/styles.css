@@ -1,5 +1,5 @@
 body {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .jumbotron {
@@ -23,4 +23,12 @@ img {
 
 .carousel-caption {
   background-color: rgba(0,0,0,0.5);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+div {
+  border: 2px #734B21 solid;
 }
