@@ -2,6 +2,10 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+body p, a {
+  font-size: 1.1rem;
+}
+
 .jumbotron {
   background-color: #424269;
 }
@@ -25,6 +29,19 @@ h2, h3, h4, h5 {
   text-align: center;
 }
 
+.box {
+  padding: 10px;
+  margin: 5px;
+}
+
+.box p {
+  text-align: center;
+}
+
+.box a {
+  color: #424269;
+}
+
 .picture1 img {
   width: 100%;
 }
@@ -33,17 +50,9 @@ h2, h3, h4, h5 {
   width: 100%;
 }
 
-.box {
-  padding: 10px;
-}
-
-.box a {
-  color: #424269;
-}
-
 .overview, .info {
   background-color: #6B7D3F;
-  color: #FFF;
+  color: #fff;
 }
 
 .catering {
@@ -52,10 +61,6 @@ h2, h3, h4, h5 {
 
 .menu {
   background-color: #BFB25E;
-}
-
-.menu a {
-  color: #FFF;
 }
 
 .eco-friendly {
@@ -67,4 +72,19 @@ h2, h3, h4, h5 {
   background-color: #424269;
   width: 100%;
   color: white;
+  text-align: center;
+}
+
+.footer h4 {
+  color: #E6BB4B;
+}
+
+.footer a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+a:hover {
+  background-color: #38685A;
+  opacity: 0.5;
 }
