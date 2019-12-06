@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Noto+Sans+TC&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <title>Cool Beans Menu</title>
+</head>
+
+<body>
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-3 align-self-center">
+          <img src="img/logo.png" class="img-fluid" />
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top col">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coolBeansNavbar">
+              <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="coolBeansNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"> HOME </a></li>
+                <li class="nav-item active"><a class="nav-link" href="#"> MENU </a></li>
+                <li class="nav-item"><a class="nav-link" href="catering.html"> CATERING </a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html"> ABOUT </a></li>
+                <li class="nav-item"><a class="nav-link" href="meetingroom.html"> MEETING ROOM </a></li>
+                <li class="nav-item"><a class="nav-link" href="forkids.html"> FOR KIDS </a></li>
+                <li class="nav-item"><a class="nav-link" href="contactus.html"> CONTACT US </a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+      <div class="row row-content">
+          <div class="col-12 col-lg-10 mx-auto">
+              <h2>OUR MENU</h2>
+              <p>Menu is subject to change. Please call to verify pricing.</p>
+              <div id="accordion">
+                  <div class="card">
+                      <div role="tab" class="card-header">
+                              <a data-toggle="collapse" data-target="#hot-food"><h4>Hot Food</h4><br /><small>  sandwiches, wraps, soup, and quiche</small>
+                              </a>
+                      </div>
+                      <div class="collapse show" id="hot-food" data-parent="#accordion">
+                          <div class="card-body">
+                              <p class="d-block">Served with side of your choice.
+                                  <h5>Grilled Chicken Pesto</h5> <p>$7.99<br />
+                                  foccacia + chicken + provolone + red bell pepper + pine nuts + basil pesto</p>
+                                  <h5>Sir Isaac Turkey</h5> $7.29
+                                  smoked turkey + cheddar + sweet apple + strawberry mayo on multigrain bread
+                                  <h5>Jerk Mango Chicken</h5> $7.49
+                                  roasted chicken + provolone + fresh mango + red onion + jerk sauce on pita
+                                  <h5>Southwestern Chicken Wrap</h5> $7.69
+                                  chicken + bacon + cheddar + red pepper + red onion + ranch in a spinach tortilla
+                                  <h5>Porta Ham & Swiss</h5> $7.49
+                                  pit ham + swiss + portabella mushrooms + apricot dijon mustard on multigrain bread
+                                  <h5>Caprese Sandwich</h5> $7.69
+                                  fresh mozarella + tomato + basil pesto on a baguette
+                                  <h5>Tuna Melt</h5> $7.69
+                                  house-made tuna salad + cheddar + tomato on multigrain bread
+                                  <h5>Grilled Veggie Sandwich</h5> $7.69
+                                  portabella mushrooms + zucchini + red pepper + spring mix + balsamic dressing on foccacia
+                                  <h5>Deluxe Grilled Cheese</h5> $7.49
+                                  cheddar + feta + bacon + red onion on foccacia
+                                  <h5>Quiche of the day</h5> $5.99
+                                  (upgrade side to a cup of soup for an additional $2.)
+                                  <h5>Soup of the Day</h5>
+                                  cup (served with flatbread crackers) $3.79
+                                  bowl (served with baguette) $5.49
+                                  </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div role="tab" class="card-header">
+                          <h4>
+                              <a class="collapsed" data-toggle="collapse" data-target="#git">Git Out Expeditions <small>Group Adventure Expeditions</small>
+                              </a>
+                          </h4>
+                      </div>
+                      <div class="collapse" id="git" data-parent="#accordion">
+                          <div class="card-body">
+                              <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of
+                                  other adventurers!</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div role="tab" class="card-header">
+                          <h4>
+                              <a class="collapsed" data-toggle="collapse" data-target="#mongo">Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small>
+                              </a>
+                          </h4>
+                      </div>
+                      <div class="collapse" id="mongo" data-parent="#accordion">
+                          <div class="card-body">
+                              <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop
+                                  by Mongo Fly Shop.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div role="tab" class="card-header">
+                          <h4>
+                              <a class="collapsed" data-toggle="collapse" data-target="#node">Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small>
+                              </a>
+                          </h4>
+                      </div>
+                      <div class="collapse" id="node" data-parent="#accordion">
+                          <div class="card-body">
+                              <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to
+                                  Node will be sure to get you covered.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+    
+  <div class="container container-fluid footer">
+    <div class="footer-nav box">
+      <h4>Links</h4>
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="navbar-nav nav-dark">
+            <li class="nav-item active"><a class="nav-link" href="#"> HOME </a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html"> MENU </a></li>
+            <li class="nav-item"><a class="nav-link" href="catering.html"> CATERING </a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html"> ABOUT </a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="navbar-nav nav-dark">
+            <li class="nav-item"><a class="nav-link" href="meetingroom.html"> MEETING ROOM </a></li>
+            <li class="nav-item"><a class="nav-link" href="forkids.html"> FOR KIDS </a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html"> CONTACT US </a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/pages/category/Coffee-Shop/Cool-Beans-Coffee-Cafe-194242367329069/"><i
+              class="fa fa-facebook-square fa-lg mr-2"></i>FACEBOOK</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

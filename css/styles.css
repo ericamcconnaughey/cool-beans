@@ -93,3 +93,18 @@ a:hover {
 .catering:hover, .menu:hover {
   opacity: 0.75;
 }
+
+.card-header {
+  background-color: #6B7D3F;
+  color: white;
+}
+
+.card-body {
+  background-color: #BFB25E;
+  color: rgb(36, 68, 59);
+}
+
+h4.card-header:hover {
+  opacity: 0.75;
+  background-color: #6B7D3F;
+}
