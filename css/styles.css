@@ -86,5 +86,10 @@ h2, h3, h4, h5 {
 
 a:hover {
   background-color: #38685A;
-  opacity: 0.5;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.catering:hover, .menu:hover {
+  opacity: 0.75;
 }
