@@ -124,8 +124,16 @@ h4.card-header:hover {
   padding-top: 20px;
 }
 
-#menu-message {
+#page-header {
   text-align: center;
   color: #38685A;
   font-weight: bolder;
+}
+
+.about-location img {
+  width: 60%;
+}
+
+.about-us {
+  background-color: #E6BB4B;
 }
