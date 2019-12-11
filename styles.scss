@@ -1,0 +1,129 @@
+$font-stack: 'Josefin Sans', sans-serif;
+$primary-color: #424269;
+$secondary-color: #6B7D3F;
+$complimentary-color: #E6BB4B;
+$lightest-color: white;
+$dark-color: #38685A;
+$accent-color: #BFB25E;
+
+
+body {
+  p, a {
+    font-size: 1.1rem;
+  }
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
+}
+
+.jumbotron {
+  background-color: $primary-color;
+  .navbar {
+    background-color: $primary-color;
+    color: $lightest-color;
+  }
+    a {
+      color: $lightest-color;
+      margin-right: 10px;
+      font-family: $font-stack;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.box {
+  padding: 10px;
+  margin: 5px;
+  p {
+    text-align: center;
+  }
+  a {
+    color: $primary-color;
+  }
+}
+
+.picture1 img, .picture2 img {
+  width: 100%;
+}
+
+.overview, .info {
+  background-color: $secondary-color;
+  color: $lightest-color;
+}
+
+.catering {
+  background-color: $complimentary-color;
+}
+
+.menu {
+  background-color: $accent-color;
+}
+
+.eco-friendly {
+  background-color: $dark-color;
+  color: $lightest-color;
+}
+
+.footer {
+  background-color: $primary-color;
+  width: 100%;
+  color: $lightest-color;
+  text-align: center;
+  h4 {
+    color: $complimentary-color;
+  }
+  a {
+    color: $lightest-color;
+    font-size: 0.8rem;
+  }
+}
+
+a:hover {
+  background-color: $dark-color;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.catering:hover, .menu:hover {
+  opacity: 0.85;
+}
+
+#menu-message {
+  text-align: center;
+  color: #38685A;
+  font-weight: bolder;
+}
+
+.card {
+  .card-header {
+    background-color: $secondary-color;
+    color: $lightest-color;
+    h4:hover {
+      opacity: 0.85;
+      background-color: $secondary-color;
+    }
+    p {
+      text-align: center;
+    }
+  }
+
+  .card-body {
+    background-color: $accent-color;
+    color: rgb(36, 68, 59);
+    p  {
+    text-align: center;
+    }
+    .extras {
+      border-top: 1px solid $dark-color;
+      border-bottom: 1px solid $dark-color;
+      padding-top: 10px;
+      margin-bottom: 10px;
+    }
+    .more {
+      padding-top: 20px;
+    }
+  }
+
+}

@@ -46,122 +46,302 @@
   </header>
 
   <div class="container">
-      <div class="row row-content">
-          <div class="col-12 col-lg-10 mx-auto">
-              <h2>OUR MENU</h2>
-              <p>Menu is subject to change. Please call to verify pricing.</p>
-              <div id="accordion">
-                  <div class="card">
-                      <div role="tab" class="card-header">
-                              <a data-toggle="collapse" data-target="#hot-food"><h4>Hot Food</h4><br /><small>  sandwiches, wraps, soup, and quiche</small>
-                              </a>
-                      </div>
-                      <div class="collapse show" id="hot-food" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-block">Served with side of your choice.
-                                  <h5>Grilled Chicken Pesto</h5> <p>$7.99<br />
-                                  foccacia + chicken + provolone + red bell pepper + pine nuts + basil pesto</p>
-                                  <h5>Sir Isaac Turkey</h5> $7.29
-                                  smoked turkey + cheddar + sweet apple + strawberry mayo on multigrain bread
-                                  <h5>Jerk Mango Chicken</h5> $7.49
-                                  roasted chicken + provolone + fresh mango + red onion + jerk sauce on pita
-                                  <h5>Southwestern Chicken Wrap</h5> $7.69
-                                  chicken + bacon + cheddar + red pepper + red onion + ranch in a spinach tortilla
-                                  <h5>Porta Ham & Swiss</h5> $7.49
-                                  pit ham + swiss + portabella mushrooms + apricot dijon mustard on multigrain bread
-                                  <h5>Caprese Sandwich</h5> $7.69
-                                  fresh mozarella + tomato + basil pesto on a baguette
-                                  <h5>Tuna Melt</h5> $7.69
-                                  house-made tuna salad + cheddar + tomato on multigrain bread
-                                  <h5>Grilled Veggie Sandwich</h5> $7.69
-                                  portabella mushrooms + zucchini + red pepper + spring mix + balsamic dressing on foccacia
-                                  <h5>Deluxe Grilled Cheese</h5> $7.49
-                                  cheddar + feta + bacon + red onion on foccacia
-                                  <h5>Quiche of the day</h5> $5.99
-                                  (upgrade side to a cup of soup for an additional $2.)
-                                  <h5>Soup of the Day</h5>
-                                  cup (served with flatbread crackers) $3.79
-                                  bowl (served with baguette) $5.49
-                                  </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div role="tab" class="card-header">
-                          <h4>
-                              <a class="collapsed" data-toggle="collapse" data-target="#git">Git Out Expeditions <small>Group Adventure Expeditions</small>
-                              </a>
-                          </h4>
-                      </div>
-                      <div class="collapse" id="git" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of
-                                  other adventurers!</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div role="tab" class="card-header">
-                          <h4>
-                              <a class="collapsed" data-toggle="collapse" data-target="#mongo">Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small>
-                              </a>
-                          </h4>
-                      </div>
-                      <div class="collapse" id="mongo" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop
-                                  by Mongo Fly Shop.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <div role="tab" class="card-header">
-                          <h4>
-                              <a class="collapsed" data-toggle="collapse" data-target="#node">Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small>
-                              </a>
-                          </h4>
-                      </div>
-                      <div class="collapse" id="node" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to
-                                  Node will be sure to get you covered.</p>
-                          </div>
-                      </div>
-                  </div>
+    <div class="row row-content">
+      <div class="col-12 col-lg-10 mx-auto">
+        <div id="menu-message">
+          <h2>OUR MENU</h2>
+          <p>Menu is subject to change. Please call to verify pricing.</p>
+        </div>
+        <div id="accordion">
+          <div class="card">
+            <a data-toggle="collapse" data-target="#hot-food">
+              <div role="tab" class="card-header">
+                <h4>Hot Food</h4>
+                <p>sandwiches, wraps, soup, and quiche</p>
               </div>
+            </a>
+            <div class="collapse" id="hot-food" data-parent="#accordion">
+              <div class="card-body">
+                <p>Served with side of your choice.</p>
+                <h5>Grilled Chicken Pesto</h5>
+                <p>$7.99 -- foccacia + chicken + provolone + red bell pepper + pine nuts + basil pesto</p>
+                <h5>Sir Isaac Turkey</h5>
+                <p>$7.29 -- smoked turkey + cheddar + sweet apple + strawberry mayo on multigrain bread</p>
+                <h5>Jerk Mango Chicken</h5>
+                <p>$7.49 -- roasted chicken + provolone + fresh mango + red onion + jerk sauce on pita</p>
+                <h5>Southwestern Chicken Wrap</h5>
+                <p>$7.69 -- chicken + bacon + cheddar + red pepper + red onion + ranch in a spinach tortilla</p>
+                <h5>Porta Ham & Swiss</h5>
+                <p>$7.49 -- pit ham + swiss + portabella mushrooms + apricot dijon mustard on multigrain bread</p>
+                <h5>Caprese Sandwich</h5>
+                <p>$7.69 -- fresh mozarella + tomato + basil pesto on a baguette</p>
+                <h5>Tuna Melt</h5>
+                <p>$7.69 -- house-made tuna salad + cheddar + tomato on multigrain bread</p>
+                <h5>Grilled Veggie Sandwich</h5>
+                <p>$7.69 -- portabella mushrooms + zucchini + red pepper + spring mix + balsamic dressing on foccacia
+                </p>
+                <h5>Deluxe Grilled Cheese</h5>
+                <p>$7.49 -- cheddar + feta + bacon + red onion on foccacia</p>
+                <h5>Quiche of the day</h5>
+                <p>$5.99 -- (upgrade side to a cup of soup for an additional $2.)</p>
+                <h5>Soup of the Day</h5>
+                <p>$3.79 -- cup (served with flatbread crackers)</p>
+                <p>$5.49 -- bowl (served with baguette)</p>
+              </div>
+            </div>
           </div>
+          <div class="card">
+            <a data-toggle="collapse" data-target="#salads">
+              <div role="tab" class="card-header">
+                <h4>Salads</h4>
+                <p>served with freshly baked bread</p>
+              </div>
+            </a>
+            <div class="collapse" id="salads" data-parent="#accordion">
+              <div class="card-body">
+                <h5>Greek Salad</h5>
+                <p>$7.39 -- romaine lettuce + feta + tomato + black olives + cucmber + red onion + oregano</p>
+                <h5>Chicken Salad on Baby Greens</h5>
+                <p>$8.49 -- spring mix + house-made chicken salad + tomato + pecans</p>
+                <h5>Fresh-chopped Salad with Chicken</h5>
+                <p>$7.89 -- spring mix + roasted chicken + sunflower seeds + cucumber + carrot + radish + balsamic ranch
+                </p>
+                <h5>Cobb Salad</h5>
+                <p>$8.49 -- spring mix + chicken + bacon + tomato + avocado + egg + red onion + bleu cheese</p>
+                <h5>Strawberry Spinach Salad</h5>
+                <p>$8.49 -- spinach + strawberries + apple + pecans + raspberry vinaigrette + bleu cheese</p>
+                <h5>Cranberry Spinach Salad</h5>
+                <p>$7.39 -- spinach + cranberries + feta + toasted walnuts + cilantro dressing</p>
+                <h5>Garden Salad</h5>
+                <p>$4.49 -- spring mix + red onion + carrot + flatbread crackers</p>
+                <h5>ADD Chicken to any Salad $1.50</h5>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <a data-toggle="collapse" data-target="#breakfast">
+              <div role="tab" class="card-header">
+                <h4>Breakfast</h4>
+                <p>served all day</p>
+              </div>
+            </a>
+            <div class="collapse" id="breakfast" data-parent="#accordion">
+              <div class="card-body">
+                <h5>Breakfast Ham Quesadilla</h5>
+                <p>$5.99 -- eggs + ham + swiss + portabella mushrooms in a spinach tortilla</p>
+                <h5>Greek Burrito with fruit</h5>
+                <p>$6.59 -- eggs + feta + spinach + red onion + tomato + black olives in a spinach tortilla</p>
+                <h5>Cool Beans Classic Burrito with fruit</h5>
+                <p>$6.59 -- eggs + bacon + cheddar + red onion + portabella mushrooms in a spinach tortilla</p>
+                <h5>Hammin' It Up Burrito with fruit</h5>
+                <p>$6.59 -- eggs + ham + cheddar + red onion + portabella mushrooms + sour cream in a spinach tortilla
+                </p>
+                <h5>Basic Burrito with fruit</h5>
+                <p>$6.39 -- eggs + your choice of ham or bacon + eggs + cheddar in a spinach tortilla</p>
+                <h5>California Breakfast Sandwich</h5>
+                <p>$6.39 -- eggs + bacon + tomato + avocado + chipotle sauce on toasted multigrain bread</p>
+                <h5>Fiesta Omelet with multigrain toast</h5>
+                <p>$5.69 -- two eggs + avocado + cheddar + salsa</p>
+                <h5>Build-your-own Bagel Breakfast Sandwich</h5>
+                <p>$4.79 -- new york-style bagel + eggs + your choice of cheese (see cheeses + additional toppings
+                  below)</p>
+                <h5>Build-your-own Open Face Omelet with multigrain toast</h5>
+                <p>$4.79 -- two eggs + your choice of cheese (see cheeses + additional toppings below)</p>
+                <br />
+                <div class="row extras">
+                  <div class="col-6">
+                    <h5>Cheese</h5>
+                    <br />
+                    <p>cheddar, swiss, provolone, american, feta</p>
+                    <p>extra cheese 75&#162;</p>
+                  </div>
+                  <div class="col-6">
+                    <h5>Toppings</h5>
+                    <p>Portabella mushrooms, red pepper,
+                      red onion, spinach, tomato (50&#162; each)</p>
+                    <p>Bacon, ham, chicken, turkey, avocado (75&#162; each)</p>
+                  </div>
+                </div>
+                <div class="row more">
+                  <div class="col-md-6">
+                    <h5>Quiche</h5>
+                    <p>$5.99 -- choose from today’s specials. served with fresh fruit.</p>
+                    <h5>Fresh Fruit Bowl</h5>
+                    <p>$5.49 -- fresh seasonal fruit + sweet yogurt dip</p>
+                    <h5>Yogurt Parfait</h5>
+                    <p>$3.79 -- vanilla yogurt + mixed berries + granola</p>
+                  </div>
+                  <div class="col-md-6">
+                    <h5>Cup of Oats</h5>
+                    <p>$3.79 -- oatmeal + banana + pecans + brown sugar</p>
+                    <h5>New York-Style plain bagel</h5>
+                    <p>$2.39 -- served toasted with cream cheese</p>
+                    <h5>Toast</h5>
+                    <p>$2.39 -- your choice of multigrain, white, or gluten-free</p>
+                  </div>
+                </div>
+                <h5>French baguette</h5>
+                <p>$2.39</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <a data-toggle="collapse" data-target="#cold-food">
+              <div role="tab" class="card-header">
+                <h4>Cold Food</h4>
+                <p>sandwiches and wraps</p>
+              </div>
+            </a>
+            <div class="collapse" id="cold-food" data-parent="#accordion">
+              <div class="card-body">
+                <p>Served with side of your choice.</p>
+                <h5>Chicken Salad Sandwich</h5>
+                <p>$7.59 -- house-made chicken salad + romaine lettuce + toasted pecans on multigrain bread</p>
+                <h5>Turkey Avocado Sandwich</h5>
+                <p>$7.59 -- turkey + avocado + lettuce + tomato + red onion on toasted multigrain bread</p>
+                <h5>Crisp Veggie Wrap</h5>
+                <p>$7.29 -- tomato + cucumber + red onion + avocado + romaine lettuce +
+                  carrot + sunflower seeds + ranch in a spinach tortilla</p>
+                <h5>Princeton Club Wrap</h5>
+                <p>$7.89 -- turkey + bacon + romaine lettuce + avocado + mayo in a spinach tortilla</p>
+                <h5>Tuna Salad Wrap</h5>
+                <p>$7.69 -- housemade tuna salad + tomato + cucumber + spring mix in a spinach tortilla</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <a data-toggle="collapse" data-target="#drinks">
+              <div role="tab" class="card-header">
+                <h4>Drinks</h4>
+                <p>cafe classics, house specials, teas, smoothies, and shakes</p>
+              </div>
+            </a>
+            <div class="collapse show" id="drinks" data-parent="#accordion">
+              <div class="card-body">
+                <h5>Caf&#233; Classics</h5>
+                <p>Hot sizes: 12 oz., 16 oz., or 20 oz. -- Iced sizes: 16 oz. or 24 oz.</p>
+                <div class="row classics">
+                  <div class="col-md-6">
+                    <p>Endless Cup of Coffee</p>
+                    <p>Iced Cold Brew</p>
+                    <p>Espresso</p>
+                    <p>Americano</p>
+                    <p>Hot Chocolate/Steamer <br /><small>8 oz. size available</small></p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Cappuccino</p>
+                    <p>Mocha</p>
+                    <p>Caf&#233; au lait</p>
+                    <p>Latte</p>
+                    <p>Flat White <br /><small>equal parts espresso and steamed milk</small></p>
+                  </div>
+                </div>
+                <br />
+                <h5>House Specials</h5>
+                <div class="row specials">
+                  <div class="col-md-6">
+                    <p>White Cloud<br /><small>"white" coffee with white chocolate,
+                        macadamia nut, cinnamon, and steamed milk)</small></p>
+                    <p>White Chocolate Raspberry Truffle</p>
+                    <p>Flavored Latte</p>
+                    <p>Caramel Latte</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Turtle Mocha<br /><small>chocolate + caramel + macadamia nut flavors</small></p>
+                    <p>Caf&#233; Miel<br /><small>honey + cinnamon latte</small></p>
+                    <p>White Mocha</p>
+                    <p>Italian Soda</p>
+                  </div>
+                </div>
+                <br />
+                <h5>Teas</h5>
+                <div class="row teas">
+                  <div class="col-md-6">
+                    <p>Chai Tea Latte</p>
+                    <p>Mango Chai Latte</p>
+                    <p>Red Eye Chai</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Iced Mango Green Tea</p>
+                    <p>Loose Leaf Tea</p>
+                    <p>Black Iced Tea<br /><small>free refills</small></p>
+                  </div>
+                </div>
+                <br />
+                <h5>Blended</h5>
+                <div class="row blended">
+                  <div class="col-md-6">
+                    <p>Mocha Slide</p>
+                    <p>Caramel Slide</p>
+                    <p>Eastside Slide<br /><small>our original vanilla hazelnut iced blended coffee</small></p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Peanut Butter Cup Slide</p>
+                    <p>Iced Blended Chai</p>
+                    <p>Iced Blended Mango Chai</p>
+                  </div>
+                </div>
+                <br />
+                <h5>Smoothies</h5>
+                <div class="row smoothies">
+                  <div class="col-md-6">
+                    <p>Cool Beans Classic Smoothie<br /><small>strawberries + banana + orange juice</small></p>
+                    <p>Blue Cow Smoothie<br /><small>blueberries + peaches + apple juice + honey</small></p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Peach Blossom Smoothie<br /><small>peaches + peach nectar + guava juice</small></p>
+                    <p>Mango Tango Smoothie<br /><small>mangoes + banana + guava juice</small></p>
+                  </div>
+                </div>
+                <br />
+                <h5>Shakes</h5>
+                <div class="row shakes">
+                  <div class="col-md-6">
+                    <p>Banana Split Protein Shake<br /><small>strawberries + banana + peanut butter + soy milk + protein powder</small></p>
+                    <p>Espresso Recovery Protein Shake<br /><small>espresso + slide mix + chocolate sauce + peanut butter + protein powder</small></p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Go Bananas! Protein Shake<br /><small>banana + soy milk + caramel + peanut butter + protein powder</small></p>
+                    <p>Espresso Shake<br /><small>espresso + ice cream + milk + whipped cream</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-  </div>
-    
-  <div class="container container-fluid footer">
-    <div class="footer-nav box">
-      <h4>Links</h4>
-      <div class="row">
-        <div class="col-sm-6">
-          <ul class="navbar-nav nav-dark">
-            <li class="nav-item active"><a class="nav-link" href="#"> HOME </a></li>
-            <li class="nav-item"><a class="nav-link" href="menu.html"> MENU </a></li>
-            <li class="nav-item"><a class="nav-link" href="catering.html"> CATERING </a></li>
-            <li class="nav-item"><a class="nav-link" href="aboutus.html"> ABOUT </a></li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <ul class="navbar-nav nav-dark">
-            <li class="nav-item"><a class="nav-link" href="meetingroom.html"> MEETING ROOM </a></li>
-            <li class="nav-item"><a class="nav-link" href="forkids.html"> FOR KIDS </a></li>
-            <li class="nav-item"><a class="nav-link" href="contactus.html"> CONTACT US </a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/pages/category/Coffee-Shop/Cool-Beans-Coffee-Cafe-194242367329069/"><i
-              class="fa fa-facebook-square fa-lg mr-2"></i>FACEBOOK</a></li>
-          </ul>
+      <div class="container container-fluid footer">
+        <div class="footer-nav box">
+          <h4>Links</h4>
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="navbar-nav nav-dark">
+                <li class="nav-item active"><a class="nav-link" href="#"> HOME </a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html"> MENU </a></li>
+                <li class="nav-item"><a class="nav-link" href="catering.html"> CATERING </a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html"> ABOUT </a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="navbar-nav nav-dark">
+                <li class="nav-item"><a class="nav-link" href="meetingroom.html"> MEETING ROOM </a></li>
+                <li class="nav-item"><a class="nav-link" href="forkids.html"> FOR KIDS </a></li>
+                <li class="nav-item"><a class="nav-link" href="contactus.html"> CONTACT US </a></li>
+                <li class="nav-item"><a class="nav-link"
+                    href="https://www.facebook.com/pages/category/Coffee-Shop/Cool-Beans-Coffee-Cafe-194242367329069/"><i
+                      class="fa fa-facebook-square fa-lg mr-2"></i>FACEBOOK</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

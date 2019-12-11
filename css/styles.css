@@ -2,7 +2,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body p, a {
+p, a {
   font-size: 1.1rem;
 }
 
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .catering:hover, .menu:hover {
-  opacity: 0.75;
+  opacity: 0.85;
 }
 
 .card-header {
@@ -105,6 +105,27 @@ a:hover {
 }
 
 h4.card-header:hover {
-  opacity: 0.75;
+  opacity: 0.85;
   background-color: #6B7D3F;
+}
+
+.card-body p, .card-header p {
+  text-align: center;
+}
+
+.extras {
+  border-top: 1px solid #38685A;
+  border-bottom: 1px solid #38685A;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.more {
+  padding-top: 20px;
+}
+
+#menu-message {
+  text-align: center;
+  color: #38685A;
+  font-weight: bolder;
 }
