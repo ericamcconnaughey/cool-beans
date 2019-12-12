@@ -124,16 +124,36 @@ h4.card-header:hover {
   padding-top: 20px;
 }
 
-#page-header {
+.page-header {
   text-align: center;
   color: #38685A;
   font-weight: bolder;
 }
 
-.about-location img {
-  width: 60%;
-}
-
 .about-us {
   background-color: #E6BB4B;
+  color: #424269;
 }
+
+#about-meeting-room {
+  background-color: #38685A;
+  color: #FFF;
+}
+
+#about-meeting-room:hover {
+  background-color: #26473e;
+}
+
+.contact-us {
+background-color: #38685A;
+color: rgb(219, 205, 109);
+}
+
+.contact-us a {
+  color: #fff;
+}
+
+.contact-us h1 {
+  color: #E6BB4B;
+}
+
