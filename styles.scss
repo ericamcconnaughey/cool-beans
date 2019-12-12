@@ -39,26 +39,25 @@ body {
   p {
     text-align: center;
   }
-  a {
-    color: $primary-color;
-  }
 }
 
 .picture1 img, .picture2 img {
   width: 100%;
 }
 
-.overview, .info {
+.overview, .info, .meeting-room {
   background-color: $secondary-color;
   color: $lightest-color;
 }
 
 .catering {
-  background-color: $complimentary-color;
+  background-color: #E6BB4B;
+  color: rgb(36, 68, 59);
 }
 
 .menu {
-  background-color: $accent-color;
+  background-color: #BFB25E;
+  color: rgb(36, 68, 59);
 }
 
 .eco-friendly {
@@ -82,12 +81,7 @@ body {
 
 a:hover {
   background-color: $dark-color;
-  opacity: 0.7;
   text-decoration: none;
-}
-
-.catering:hover, .menu:hover {
-  opacity: 0.85;
 }
 
 #page-header {
@@ -100,12 +94,11 @@ a:hover {
   .card-header {
     background-color: $secondary-color;
     color: $lightest-color;
-    h4:hover {
-      opacity: 0.85;
-      background-color: $secondary-color;
-    }
     p {
       text-align: center;
+    }
+    .card-header:hover {
+      background-color: rgb(72, 83, 42);
     }
   }
 
@@ -141,4 +134,13 @@ a:hover {
   h1 {
     color: #E6BB4B;
   }
+}
+
+.btn {
+  background-color: #38685A;
+  color: #FFF;
+}
+
+.btn:hover {
+  background-color: #26473e;
 }

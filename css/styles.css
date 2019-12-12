@@ -38,10 +38,6 @@ h2, h3, h4, h5 {
   text-align: center;
 }
 
-.box a {
-  color: #424269;
-}
-
 .picture1 img {
   width: 100%;
 }
@@ -50,17 +46,19 @@ h2, h3, h4, h5 {
   width: 100%;
 }
 
-.overview, .info {
+.overview, .info, .meeting-room {
   background-color: #6B7D3F;
   color: #fff;
 }
 
 .catering {
   background-color: #E6BB4B;
+  color: rgb(36, 68, 59);
 }
 
 .menu {
   background-color: #BFB25E;
+  color: rgb(36, 68, 59);;
 }
 
 .eco-friendly {
@@ -86,12 +84,7 @@ h2, h3, h4, h5 {
 
 a:hover {
   background-color: #38685A;
-  opacity: 0.6;
   text-decoration: none;
-}
-
-.catering:hover, .menu:hover {
-  opacity: 0.85;
 }
 
 .card-header {
@@ -99,14 +92,13 @@ a:hover {
   color: white;
 }
 
+.card-header:hover {
+  background-color: rgb(72, 83, 42);
+}
+
 .card-body {
   background-color: #BFB25E;
   color: rgb(36, 68, 59);
-}
-
-h4.card-header:hover {
-  opacity: 0.85;
-  background-color: #6B7D3F;
 }
 
 .card-body p, .card-header p {
@@ -135,13 +127,14 @@ h4.card-header:hover {
   color: #424269;
 }
 
-#about-meeting-room {
+.btn {
   background-color: #38685A;
   color: #FFF;
 }
 
-#about-meeting-room:hover {
+.btn:hover {
   background-color: #26473e;
+  color: #fff;
 }
 
 .contact-us {
