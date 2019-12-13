@@ -143,6 +143,12 @@ a:hover {
 
 .btn:hover {
   background-color: #26473e;
+  color: #fff;
+}
+
+.btn a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .form-btn {

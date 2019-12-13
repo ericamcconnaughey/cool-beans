@@ -6,6 +6,10 @@ p, a {
   font-size: 1.1rem;
 }
 
+a {
+  color: #fff;
+}
+
 .jumbotron {
   background-color: #424269;
 }
@@ -82,11 +86,6 @@ h2, h3, h4, h5 {
   font-size: 0.8rem;
 }
 
-a:hover {
-  background-color: #38685A;
-  text-decoration: none;
-}
-
 .card-header {
   background-color: #6B7D3F;
   color: white;
@@ -135,6 +134,11 @@ a:hover {
 .btn:hover {
   background-color: #26473e;
   color: #fff;
+}
+
+.btn a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .form-btn {
