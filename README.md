@@ -17,7 +17,7 @@ _This responsive website allows users on any viewport size to easily navigate th
 
 _Minor styling issues:_
 * _Buttons are not centered in their containers._
-* _Last two boxes on index.html are not properly aligned.
+* _Last two boxes on index.html are not properly aligned._
 * _Meeting room page is missing a picture._
 
 ## Support and contact details
