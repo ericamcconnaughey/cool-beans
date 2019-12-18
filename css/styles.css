@@ -35,7 +35,8 @@ h2, h3, h4, h5 {
 
 .box {
   padding: 10px;
-  margin: 5px;
+  margin: 15px 5px;
+  height: 95%;
 }
 
 .box p {
@@ -62,7 +63,7 @@ h2, h3, h4, h5 {
 
 .menu {
   background-color: #BFB25E;
-  color: rgb(36, 68, 59);;
+  color: rgb(36, 68, 59);
 }
 
 .eco-friendly {
@@ -72,9 +73,10 @@ h2, h3, h4, h5 {
 
 .footer {
   background-color: #424269;
-  width: 100%;
   color: white;
   text-align: center;
+  padding: 15px;
+  margin-top: 15px;
 }
 
 .footer h4 {

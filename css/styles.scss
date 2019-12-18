@@ -2,7 +2,8 @@ $font-stack: 'Josefin Sans', sans-serif;
 $primary-color: #424269;
 $secondary-color: #6B7D3F;
 $complimentary-color: #E6BB4B;
-$lightest-color: white;
+$lightest-color: #fff;
+$darkest-color: #24443b;
 $dark-color: #38685A;
 $accent-color: #BFB25E;
 
@@ -35,7 +36,8 @@ body {
 
 .box {
   padding: 10px;
-  margin: 5px;
+  margin: 15px 5px;
+  height: 90%;
   p {
     text-align: center;
   }
@@ -51,13 +53,13 @@ body {
 }
 
 .catering {
-  background-color: #E6BB4B;
-  color: rgb(36, 68, 59);
+  background-color: $complimentary-color;
+  color: $darkest-color;
 }
 
 .menu {
-  background-color: #BFB25E;
-  color: rgb(36, 68, 59);
+  background-color: $accent-color;
+  color: $darkest-color;
 }
 
 .eco-friendly {
@@ -67,9 +69,10 @@ body {
 
 .footer {
   background-color: $primary-color;
-  width: 100%;
   color: $lightest-color;
   text-align: center;
+  padding: 15px;
+  margin-top: 15px;
   h4 {
     color: $complimentary-color;
   }
@@ -86,7 +89,7 @@ a:hover {
 
 #page-header {
   text-align: center;
-  color: #38685A;
+  color: $dark-color;
   font-weight: bolder;
 }
 
@@ -104,7 +107,7 @@ a:hover {
 
   .card-body {
     background-color: $accent-color;
-    color: rgb(36, 68, 59);
+    color: $darkest-color;
     p  {
     text-align: center;
     }
@@ -121,36 +124,36 @@ a:hover {
 }
 
 .about-us {
-  background-color: #E6BB4B;
-  color: #424269;
+  background-color: $complimentary-color;
+  color: $primary-color;
 }
 
 .contact-us {
-  background-color: #38685A;
-  color: rgb(219, 205, 109);
+  background-color: $dark-color;
+  color: #dbcd6d;
   a {
-    color: #fff;
+    color: $lightest-color;
   }
   h1 {
-    color: #E6BB4B;
+    color: $complimentary-color;
   }
 }
 
 .btn {
-  background-color: #38685A;
-  color: #FFF;
+  background-color: $dark-color;
+  color: $lightest-color;
 }
 
 .btn:hover {
-  background-color: #26473e;
-  color: #fff;
+  background-color: $darkest-color;
+  color: $lightest-color;
 }
 
 .btn a:hover {
-  color: #fff;
+  color: $lightest-color;
   text-decoration: none;
 }
 
 .form-btn {
-  background-color: #26473e;
+  background-color: $darkest-color;
 }
