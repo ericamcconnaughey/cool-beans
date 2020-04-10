@@ -7,6 +7,7 @@
 ## Description
 
 _This responsive website allows users on any viewport size to easily navigate the Cool Beans coffee cafe website._
+_Original website: https://www.coolbeanscoffeecafe.com/no_flash.shtml _
 
 ## Setup/Installation Requirements
 
